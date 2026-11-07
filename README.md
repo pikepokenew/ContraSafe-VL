@@ -89,10 +89,6 @@ the data construction and analysis code.
 4. **Response preference collection** — nine VLMs generate candidate responses, scored by
    two reward models (`harmless_score`, `helpful_score`).
 
-Safety labels are produced by majority voting over multiple safety judges; a 100-pair
-subset was additionally human-audited by two annotators (flip confirmed in 95.7% of pairs
-with a definite verdict, 95% CI [89.6, 98.3]; single-image label agreement 98.4%).
-
 ## Intended use and ethics
 
 This dataset **contains harmful and sensitive images** (violence, illegal acts,
