@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data & checkpoints (dataset is hosted on Hugging Face)
+data/
+images/
+*.parquet
+*.jsonl
+*.safetensors
+
+# Misc
+.DS_Store
+.ipynb_checkpoints/
