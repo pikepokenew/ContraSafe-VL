@@ -27,7 +27,7 @@ response-level preference data.
 | Contrastive pairs (unsafe × safe, same text) | **10,115** across 10,022 queries |
 | Queries participating in contrastive pairs | 20,230 |
 | Additional (non-paired) queries | 32,871 — 18,561 unsafe + 14,310 safe |
-| Unique images | 17,862 (10,029 edited / 7,833 original) |
+| Unique images | 17,862 |
 | Response candidates | 9 VLM backbones, 460,529 responses |
 | Reward scores | `helpful_score` / `harmless_score` per response |
 
